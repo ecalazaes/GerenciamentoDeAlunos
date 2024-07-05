@@ -4,7 +4,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.util.Calendar;
 
 @Entity
 @Table(name = "alunos")
@@ -17,7 +16,7 @@ public class Aluno {
     private String email;
     private String CPF;
     private String dataNascimento;
-    private String natualidade;
+    private String naturalidade;
     private String endereco;
 
     public Aluno() {
@@ -28,7 +27,7 @@ public class Aluno {
         this.email = email;
         this.CPF = CPF;
         this.dataNascimento = dataNascimento;
-        this.natualidade = natualidade;
+        this.naturalidade = natualidade;
         this.endereco = endereco;
     }
 
@@ -72,12 +71,12 @@ public class Aluno {
         this.dataNascimento = dataNascimento;
     }
 
-    public String getNatualidade() {
-        return natualidade;
+    public String getNaturalidade() {
+        return naturalidade;
     }
 
-    public void setNatualidade(String natualidade) {
-        this.natualidade = natualidade;
+    public void setNaturalidade(String naturalidade) {
+        this.naturalidade = naturalidade;
     }
 
     public String getEndereco() {

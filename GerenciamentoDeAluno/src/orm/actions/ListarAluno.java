@@ -29,7 +29,7 @@ public class ListarAluno {
                 System.out.println(aluno.getEmail());
                 System.out.println(aluno.getCPF());
                 System.out.println(aluno.getDataNascimento());
-                System.out.println(aluno.getNatualidade());
+                System.out.println(aluno.getNaturalidade());
                 System.out.println(aluno.getEndereco());
                 System.out.println("===============================");
             }

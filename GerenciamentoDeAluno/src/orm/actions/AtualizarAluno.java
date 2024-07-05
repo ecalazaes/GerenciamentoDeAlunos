@@ -42,7 +42,7 @@ public class AtualizarAluno {
             aluno.setDataNascimento(sc.nextLine());
 
             System.out.print("Naturalidade: ");
-            aluno.setNatualidade(sc.nextLine());
+            aluno.setNaturalidade(sc.nextLine());
 
             System.out.print("Endereco: ");
             aluno.setEndereco(sc.nextLine());
